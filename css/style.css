@@ -1,0 +1,214 @@
+/* RESET CSS */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*----------------END 0F RESET CSS----------------------------*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    font-weight: 800;
+}
+
+.menu-left {
+    color: white;
+    float: left;
+    padding: 20px 0 0 20px;
+}
+
+span {
+    color: #2FD2B7;
+}
+
+.menu-right {
+    color: white;
+    float: right;
+    padding: 20px 0 0 20px;
+}
+
+.small-menu {
+    width: 10%;
+    float: left;
+    padding: 0 30px 0 40px;
+
+}
+
+.first-article {
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(45deg, rgba(209, 208, 216, 1) 0%, rgba(250, 250, 250, 1) 100%);
+}
+
+.first-article-div {
+    width: 10%;
+    color: #2FD2B7;
+    font-size: 100px;
+    float: left;
+    padding: 150px 10px 0 70px;
+}
+
+.first-article-div2 {
+    width: 25%;
+    color: #2FD2B7;
+    padding: 100px 0 0 70px;
+    float: left;
+}
+
+.first-article-div3 {
+    width: 25%;
+    color: black;
+    float: left;
+    padding: 120px 10px 0 70px;
+}
+
+div #label:hover {
+    background: url("../images/label.jpg") 0 -45px;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0 0 20px 0;
+}
+
+a {
+    font-size: 25px;
+    background-color: #2FD2B7;
+    color: white;
+    border-radius: 20px;
+    padding: 15px 20px 15px 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    position: relative;
+    right: -50px;
+}
+
+.second-article {
+    margin: 20px 0 0 0;
+    background-color: white;
+    width: 100%;
+    height: 300px;
+}
+
+.second-article-div1 {
+    width: 30%;
+    height: 100%;
+    background: url("../images/box1_img.jpg") top center /contain no-repeat;
+    float: left;
+    margin: 0 20px 15px 20px;
+}
+
+.second-article-div2 {
+    width: 30%;
+    height: 100%;
+    background: url("../images/box2_img.jpg") top center /contain no-repeat;
+    float: left;
+    margin: 0 20px 15px 20px;
+}
+
+.second-article-div3 {
+    width: 30%;
+    height: 290px;
+    border: 1px solid #D1D0D8;
+    float: left;
+    margin: 0 20px 15px 20px;
+}
+
+.p-article {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    color: black;
+    padding: 20px 0 0 20px;
+}
+.p-article1 {
+    display:inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    color: gray;
+    padding: 20px 0 20px 20px;
+
+}
+.p-article-move {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    color: black;
+    padding: 20px 0 0 20px;
+    position:relative;
+    margin-top:180px;
+}
+hr {
+    background-color:#2FD2B7;
+    height: 8px;
+    width: 150px;
+    float: left;
+    border:none;
+   margin: 10px 0 0 20px;
+}
+.trans {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+.row::after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
