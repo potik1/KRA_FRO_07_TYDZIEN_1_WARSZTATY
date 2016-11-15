@@ -51,161 +51,475 @@ table {
 }
 
 /*----------------END 0F RESET CSS----------------------------*/
+* {
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Raleway', sans-serif;
+    max-width: 1400px;
+}
+
+.container {
+    margin: 0 auto;
+    height: 100%;
+    width: 90%;
+    border: 1px solid red;
 }
 
 header {
     width: 100%;
     height: 50px;
     background-color: black;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 .menu-left {
+    width: 50%;
     color: white;
     float: left;
-    padding: 20px 0 0 20px;
+    padding: 20px 0 20px 0;
 }
 
 span {
     color: #2FD2B7;
+    font-weight: 700;
 }
 
 .menu-right {
+    width: 50%;
     color: white;
     float: right;
-    padding: 20px 0 0 20px;
+    padding: 20px 0 20px 0;
 }
 
-.small-menu {
-    width: 10%;
-    float: left;
-    padding: 0 30px 0 40px;
+li {
+    list-style-type: none;
+    padding: 0 0 0 70px;
+    display: inline-block;
+    float: right;
+}
+
+#hov_menu {
+    position: relative;
+}
+
+#hov_menu img {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+
+}
+
+.section_one {
+    background: linear-gradient(to bottom, rgba(249, 249, 249, 1) 0%, rgba(246, 246, 246, 1) 53%, rgba(203, 206, 213, 1) 100%);
 
 }
 
 .first-article {
-    width: 100%;
-    height: 500px;
-    background: linear-gradient(45deg, rgba(209, 208, 216, 1) 0%, rgba(250, 250, 250, 1) 100%);
+    height: 600px;
 }
 
-.first-article-div {
-    width: 10%;
+.first-article-div1 {
+    width: 11%;
+    height: 100%;
     color: #2FD2B7;
     font-size: 100px;
     float: left;
-    padding: 150px 10px 0 70px;
+    padding: 230px 10px 0 0px;
 }
 
 .first-article-div2 {
-    width: 25%;
+    width: 35%;
+    height: 100%;
     color: #2FD2B7;
     padding: 100px 0 0 70px;
     float: left;
+    position: relative;
+}
+
+img {
+    position: absolute;
+    top: 70px;
+    left: -100px;
 }
 
 .first-article-div3 {
-    width: 25%;
+    width: 42%;
+    height: 100%;
     color: black;
+    text-align: center;
     float: left;
-    padding: 120px 10px 0 70px;
+    padding: 150px 10px 0 20px;
 }
 
-div #label:hover {
-    background: url("../images/label.jpg") 0 -45px;
+.first-article-div4 {
+    width: 11%;
+    height: 100%;
+    color: #2FD2B7;
+    font-size: 100px;
+    float: left;
+    padding: 230px 0 0 100px;
 }
 
 h1 {
     font-size: 35px;
-    font-weight: 900;
+    font-weight: 600;
     text-align: center;
     vertical-align: middle;
     padding: 0 0 20px 0;
 }
 
-a {
+p {
+    color: dimgray;
+    line-height: 1.5em;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+a.more {
     font-size: 25px;
     background-color: #2FD2B7;
     color: white;
-    border-radius: 20px;
-    padding: 15px 20px 15px 20px;
+    border-radius: 10px;
+    padding: 15px 25px 15px 25px;
     text-align: center;
     vertical-align: middle;
     line-height: 90px;
-    position: relative;
-    right: -50px;
+    text-decoration: none;
 }
 
 .second-article {
     margin: 20px 0 0 0;
     background-color: white;
     width: 100%;
-    height: 300px;
+    height: 350px;
 }
 
 .second-article-div1 {
-    width: 30%;
+    width: 31%;
     height: 100%;
     background: url("../images/box1_img.jpg") top center /contain no-repeat;
     float: left;
-    margin: 0 20px 15px 20px;
+    margin: 0 20px 15px 0;
 }
 
 .second-article-div2 {
-    width: 30%;
+    width: 31%;
     height: 100%;
     background: url("../images/box2_img.jpg") top center /contain no-repeat;
     float: left;
-    margin: 0 20px 15px 20px;
+    margin: 0 24px 15px 24px;
 }
 
 .second-article-div3 {
-    width: 30%;
+    width: 31%;
     height: 290px;
     border: 1px solid #D1D0D8;
-    float: left;
-    margin: 0 20px 15px 20px;
+    float: right;
+    margin: 0 0 15px 0;
 }
 
 .p-article {
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 500;
     text-align: left;
     color: black;
     padding: 20px 0 0 20px;
 }
+
 .p-article1 {
-    display:inline-block;
-    font-size: 18px;
-    font-weight: 700;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
     text-align: left;
     color: gray;
     padding: 20px 0 20px 20px;
-
 }
+
 .p-article-move {
     font-size: 18px;
     font-weight: 700;
     text-align: left;
     color: black;
     padding: 20px 0 0 20px;
-    position:relative;
-    margin-top:180px;
+    position: relative;
+    top: -80px;
+    margin-top: 180px;
 }
+
+.transparent {
+    width: 100%;
+    height: 70px;
+    position: relative;
+    top: 180px;
+    background: white;
+    opacity: 0.3;
+
+}
+
 hr {
-    background-color:#2FD2B7;
+    background-color: #2FD2B7;
     height: 8px;
     width: 150px;
     float: left;
-    border:none;
-   margin: 10px 0 0 20px;
+    position: relative;
+    top: -90px;
+    border: none;
+    margin: 10px 0 0 20px;
 }
-.trans {
-    opacity: 0.6;
-    filter: alpha(opacity=60);
+
+#last-box {
+    position: relative;
+    top: 0;
+}
+
+.section_three {
+    background: #F1F1F1;
+}
+
+.third_article {
+    height: 720px;
+}
+
+.hr {
+    background-color: #2FD2B7;
+    height: 8px;
+    width: 31%;
+    float: left;
+    border: none;
+    margin: 10px 0 0 0;
+    position: relative;
+    top: 10px;
+}
+
+.p-article-move1 {
+    font-size: 22px;
+    color: dimgray;
+    font-weight: 600;
+    text-align: left;
+    padding: 20px 0 0 20px;
+    position: relative;
+    top: 10px;
+}
+
+.fiszka {
+    font-size: 25px;
+    width: 31%;
+    height: 500px;
+    border: 2px solid #D1D0D8;
+    padding: 20px 0 70px 0;
+    position: relative;
+    background: #F9F9F9;
+    float: left;
+}
+
+.circle_white {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    top: -40px;
+    left: 170px;
+    border: 2px solid #C2C2C2;
+    z-index: 0;
+}
+
+.circle_gray {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background: #C2C2C2;
+    top: -25px;
+    left: 185px; /* wypośrodkowanie - trzeba dodać padding i margines z lewj strony!!*/
+    border: 2px solid #C2C2C2;
+    z-index: 1;
+}
+
+.line {
+    width: 100%;
+    height: 150px;
+}
+
+.plan {
+    color: #2FD2B7;
+    font-weight: 500;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+.circle {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    position: relative;
+    left: 130px;
+    background: white;
+    border: 2px solid #C2C2C2;
+    margin: 0 0 20px 0;
+}
+
+.zakup1 {
+    width: 100%;
+    height: 40px;
+    background: #E4E4E4;
+    text-align: center;
+    padding: 10px 0 0 0;
+    color: #A7A7A7;
+}
+.serwis1 {
+    width: 100%;
+    height: 45px;
+    background: #F1F1F1;
+    text-align: center;
+    padding: 10px 0 0 0;
+    color: #767676;
+}
+.button {
+    width: 40%;
+    background: #2FD2B7;;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 20px;
+    position:absolute;
+    bottom:20px;
+    left:120px;
+}
+.inside_circle1{
+    font-size: 16px;
+    color:#C2C2C2;
+    position:absolute;
+    left: 25px;
+    bottom: 20px;
+}
+.inside_circle{
+    font-size: 45px;
+    font-weight: 700;
+    color:#C2C2C2;
+    position:absolute;
+    left: 30px;
+    bottom: 40px;
+}
+sub {
+    vertical-align: super;
+    font-size: 15px;
+    position: absolute;
+    top:-15px;
+}
+.circle_green {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: #2FD2B7;
+    position: absolute;
+    top: -40px;
+    left: 170px;
+    border: 2px solid #2FD2B7;
+    z-index: 0;
+}
+.circle_white2 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background: white;
+    top: -25px;
+    left: 185px; /* wypośrodkowanie - trzeba dodać padding i margines z lewj strony!!*/
+    border: 2px solid white;
+    z-index: 1;
+}
+.fiszka2 {
+    font-size: 25px;
+    width: 31%;
+    height: 500px;
+    border: 2px solid #2FD2B7;
+    padding: 20px 0 70px 0;
+    position: relative;
+    background: #2FD2B7;
+    float: left;
+    margin: 0 40px 0 40px;
+}
+.zakup2 {
+    width: 100%;
+    height: 40px;
+    background: #FFFFFF;
+    text-align: center;
+    padding: 10px 0 0 0;
+    color: #A4A4A4;
+}
+.serwis2 {
+    width: 100%;
+    height: 45px;
+    background: #F1F1F1;
+    text-align: center;
+    padding: 10px 0 0 0;
+    color: #A4A4A4;
+}
+.gwarancja2 {
+    width: 100%;
+    height: 40px;
+    background: #FFFFFF;
+    text-align: center;
+    padding: 10px 0 0 0;
+    color: #A4A4A4;
+}
+.circle2 {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    position: relative;
+    left: 130px;
+    background: white;
+    border: 2px solid #2FD2B7;
+    margin: 0 0 20px 0;
+}
+.button2 {
+    width: 40%;
+    background: white;;
+    color: #2FD2B7;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 20px;
+    position:absolute;
+    bottom:20px;
+    left:120px;
+}
+.inside_circle_1{
+    font-size: 45px;
+    font-weight: 700;
+    color:#C2C2C2;
+    position:absolute;
+    left: 10px;
+    bottom: 40px;
+}
+.plan1 {
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+.fiszka3 {
+    font-size: 25px;
+    width: 31%;
+    height: 500px;
+    border: 2px solid #D1D0D8;
+    padding: 20px 0 70px 0;
+    position: relative;
+    background: #F9F9F9;
+    float: right;
+}
+.section_four {
+    background: white;
+}
+.fourth_article {
+    height: 1000px;
 }
 .row::after {
     content: ' ';
