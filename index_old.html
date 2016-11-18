@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Warsztaty</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_old.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet">
 </head>
 <body>
@@ -13,18 +13,12 @@
             <div class="menu-left"><h5>SIT <span>ON</span> CHAIR</h5></div>
             <div class="menu-right">
                 <nav>
-                    <ul id="lista">
+                    <ul>
                         <li><h5>KONTAKT</h5></li>
                         <li><h5>GALERIA</h5></li>
-                        <li><h5>O&nbspFIRMIE</h5>
-                            <ul id="hov_menu">
-                                <li>Aktualności</li>
-                                <li>Nasz team</li>
-                                <li>Historia</li>
-                                <div class="triangle"></div>
-                            </ul>
+                        <li id="hov_menu"><h5>O&nbspFIRMIE</h5>
+                            <div><img src="images/label.jpg" width="136px" height="117px"/></div>
                         </li>
-
                     </ul>
                 </nav>
             </div>
@@ -34,25 +28,20 @@
 <section class="section_one">
     <div class="container">
         <div class="row">
-            <div class="first-article slider">
-                <div class="first-article-div1" id="prev-btn"><</div>
+            <article class="first-article">
+                <div class="first-article-div1"><</div>
                 <div class="first-article-div2">
-                    <ul>
-                        <li><img src="images/black_chair.png" width="470px" height="339px"></li>
-                        <li><img src="images/red.png" width="470px" height="339px"></li>
-                        <li><img src="images/orange.png" width="470px" height="339px"></li>
-                    </ul>
-                </div>
+                    <img src="images/black_chair.png" width="600px" height="500"px></div>
+
                 <div class="first-article-div3">
                     <h1>SIT <span>ON</span> OUR <span>CHAIR</span></h1>
-                    <p> Lorem ipsum dolor sit amet enim.Etiam ullamcorper. Suspendisse e pellentesque dui, non
-                        felis.
-                        Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestia
-                        a, ultricies porta una.</p>
+                    <p> Lorem ipsum dolor sit amet enim.Etiam ullamcorper. Suspendisse e pellentesque dui, non felis.
+                        Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestia a,
+                        ultricies porta una.</p>
                     <a href="#" class="more">ZOBACZ WIĘCEJ</a>
                 </div>
-                <div class="first-article-div4" id="next-btn"> ></div>
-            </div>
+                <div class="first-article-div4"> ></div>
+            </article>
         </div>
     </div>
 </section>
@@ -61,18 +50,14 @@
         <div class="row">
             <article class="second-article">
                 <div class="second-article-div1">
-                    <div>
-                        <div class="transparent"></div>
-                        <p class="p-article-move">Chair CLAIR</p>
-                        <hr>
-                    </div>
+                    <div class="transparent"></div>
+                    <p class="p-article-move">Chair CLAIR</p>
+                    <hr>
                 </div>
                 <div class="second-article-div2">
-                    <div>
-                        <div class="transparent"></div>
-                        <p class="p-article-move">Chair MARGARITA</p>
-                        <hr>
-                    </div>
+                    <div class="transparent"></div>
+                    <p class="p-article-move">Chair MARGARITA</p>
+                    <hr>
                 </div>
                 <div class="second-article-div3">
                     <p class="p-article">Finds all inputs</p>
@@ -140,82 +125,6 @@
         </div>
     </div>
 </section>
-<section class="application ">
-    <div class="container">
-        <div class="row">
-            <section class="choice_part inline">
-                <div>
-                    <h3>SKOMPONUJ SWOJE KRZESŁO</h3>
-                    <span class="green_bell"></span>
-                </div>
-
-                <div class="form">
-                    <div class="drop_down_list">
-                        <span class="list_label">Wybierz rodzaj</span>
-                        <span class="list_arrow"></span>
-                        <ul class="list_panel">
-                            <li>Clair</li>
-                            <li>Margarita</li>
-                            <li>Selena</li>
-                        </ul>
-                    </div>
-                    <div class="drop_down_list">
-                        <span class="list_label">Wybierz kolor</span>
-                        <span class="list_arrow"></span>
-                        <ul class="list_panel">
-                            <li>Czerwony</li>
-                            <li>Czarny</li>
-                            <li>Pomarańczowy</li>
-                        </ul>
-                    </div>
-                    <div class="drop_down_list">
-                        <span class="list_label">Wybierz materiał</span>
-                        <span class="list_arrow"></span>
-                        <ul class="list_panel">
-                            <li>Tkanina</li>
-                            <li>Skóra</li>
-                        </ul>
-                    </div>
-                    <div class="checkbox check-box">
-                        <input type="checkbox" id="transport" data-transport-price="200">
-                        <label for="transport">Transport</label>
-                    </div>
-                    <!--<div class="checkbox"></div>-->
-                    <!--<span class="list_label inline_text">Transport</span>-->
-                </div>
-            </section>
-
-            <section class="image_part inline">
-                <img src="images/red_chair.png">
-            </section>
-
-            <section class="summary_part inline">
-                <div class="align_right">
-                    <h3>PODSUMOWANIE</h3>
-                    <span class="green_bell"></span>
-                </div>
-
-                <div class="summary_panel">
-                    <div class="panel_left">
-                        <h4 class="title">Twój fotel</h4>
-                        <span class="color"></span>
-                        <span class="pattern"></span>
-                        <span class="transport"></span>
-                    </div>
-                    <div class="panel_right">
-                        <h4 class="title value"></h4>
-                        <span class="color value"></span>
-                        <span class="pattern value"></span>
-                        <span class="transport value"></span>
-                    </div>
-                    <div class="sum_label">SUMA</div>
-                    <div class="sum"><strong></strong></div>
-                </div>
-                <a href="" class="green_button">Zamawiam</a>
-            </section>
-        </div>
-    </div>
-</section>
 <section class="section_four">
     <div class="container">
         <div class="row">
@@ -264,6 +173,5 @@
         </div>
     </div>
 </footer>
-<script src="js/app.js"></script>
 </body>
 </html>
